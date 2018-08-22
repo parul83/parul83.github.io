@@ -1,0 +1,146 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*------------------Assets start (Common styles for across the app)------------------*/
+html, body {
+    font-family: "Trebuchet MS" !important;
+    font-size: 16px;
+    height:100%;
+}
+
+/*---Search Box-----*/
+.inner-addon {
+  position: relative;
+}
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  z-index: 2;
+  cursor: pointer
+}
+.left-addon .fa  { left:  0px; top:0}
+.right-addon .fa { right: 0px; top:0}
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+/*---Search Box-----*/
+
+input[type=text]::-ms-clear {
+    display: none;
+}
+
+.red-text{
+    color: #c4151c;
+}
+.yellow-text{
+    color: #F2C007;
+}
+.dark-blue-text{
+    color: #0C3F97;
+}
+.lite-blue-text{
+    color: #00A6Eb;
+}
+.lite-gray{
+    color: #BABEC3;
+}
+.mid-gray-text{
+    color: #9DA1A6;
+}
+.dark-gray-text{
+    color: #434F5B;
+}
+.black-text{
+    color: #000000;
+}
+.green-text{
+    color: #2cc24f;
+}
+.btn{ padding: 8px 12px;}
+.btn-primary{
+    background: #C4151C;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.btn-primary:active, .btn-primary:hover{
+    background: #e1e5eb;
+    color: #fff;
+}
+
+.btn-primary.gray{
+    background: #e1e5eb;
+    color: #434F5B;
+    outline: none;
+    border: none;
+}
+.btn-primary.gray:active, .btn-primary.gray:hover{
+    background: #e1e5eb;
+    color: #434F5B;
+}
+
+.btn:focus{
+    outline: none;
+}
+.padding-5{padding: 5px;}
+.padding-10{padding: 10px;}
+.padding-15{padding: 15px;}
+.padding-20{padding: 20px;}
+.padding-30{padding: 30px;}
+
+.margin-5{margin: 5px;}
+.margin-10{margin: 10px;}
+.margin-15{margin: 15px;}
+.margin-20{margin: 20px;}
+.margin-30{margin: 30px;}
+
+.no-padding{
+    padding: 0;
+}
+.no-margin{
+    margin: 0;
+}
+.flip-horizontal{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.page-wrapper{
+    width: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    height: 100vh;
+}
+.main-container{
+    overflow-y: scroll;
+}
+/* .mat-menu-panel.menu-wrap{
+    max-width:unset !important;
+  } */
+/* -----------------Assets END------------------ */
+/* .fa:before {
+	content: '\00d7';
+} */
+
+.mat-sidenav-container, .mat-sidenav-content, .mat-tab-body-content {
+    transform: none !important;
+}
+
+
+.row.no-gutters {
+    margin-right: 0px;
+    margin-left: 0px;
+  
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+
+@media (max-width: 575px) { 
+
+
+}

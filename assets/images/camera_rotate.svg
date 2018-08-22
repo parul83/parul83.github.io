@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.544 26.516">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_10953" data-name="Group 10953" transform="translate(2937.575 6576.634)">
+    <path id="Path_3383" data-name="Path 3383" class="cls-1" d="M7.355,25.5,5.464,27.553H2.1A2.084,2.084,0,0,0,0,29.606V41.923a2.084,2.084,0,0,0,2.1,2.053H18.913a2.084,2.084,0,0,0,2.1-2.053V29.606a2.084,2.084,0,0,0-2.1-2.053H15.55L13.659,25.5Zm3.152,14.652a4.388,4.388,0,1,1,0-8.774,4.388,4.388,0,1,1,0,8.774Z" transform="translate(-2933.397 -6602.134)"/>
+    <path id="Path_3384" data-name="Path 3384" class="cls-2" d="M-2940.572-6549.115s-6.285,9.254,8.444,9.88" transform="translate(5.338 -14.144)"/>
+    <path id="Path_3387" data-name="Path 3387" class="cls-2" d="M11.416,0S14.331,10.287,0,8.4" transform="translate(-2920.48 -6561.68) rotate(-3)"/>
+    <path id="Path_3385" data-name="Path 3385" class="cls-1" d="M-2919.5-6551.455v5.677h0l5.143-3.2Z" transform="translate(-8.391 -4.34)"/>
+    <path id="Path_3386" data-name="Path 3386" class="cls-1" d="M0,0V5.677H0l5.143-3.2Z" transform="matrix(-0.53, -0.848, 0.848, -0.53, -2910.845, -6558.752)"/>
+  </g>
+</svg>
